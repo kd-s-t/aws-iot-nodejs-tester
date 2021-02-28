@@ -19,6 +19,9 @@ Replace path.resolve according to your certs folder and name
 run `node subscribe.js`  
 run `node publish.js`  
 
+## Take note  
+If both end are communicating, that means AWS IoT has been successfully configured.  
+
 ## Youtube Tutorial
 By Following this Tutorial  
 [Youtube Tutorial Soon]  
