@@ -8,12 +8,16 @@ AWS Cognito Identity Pool
 AWS IAM User  
 AWS IAM Role   
 
-## Usage  
+## Setup Nodejs  
 `git clone https://github.com/ollolollollooloo/aws-iot-nodejs`  
 `cd aws-iot-nodejs`  
 `npm install`  
 Replace certs folder  
 Replace path.resolve according to your certs folder and name  
+
+## Usage  
+run `node subscribe.js`  
+run `node publish.js`  
 
 ## Youtube Tutorial
 By Following this Tutorial  
