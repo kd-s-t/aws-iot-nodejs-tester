@@ -17,11 +17,11 @@ Replace path.resolve according to your certs folder and name
 
 ## To check current active profile in your computer windows 10  
 run `aws configure list`  
-<img src="./visuals/list.png" width="10%">  
+<img src="./visuals/list.png" width="30%">  
 
 ## To check all profile in your computer windows 10  
 run `vim ~/.aws/credentials`  
-<img src="./visuals/all.png" width="10%">  
+<img src="./visuals/all.png" width="30%">  
 
 ## To set specific profile in your computer windows 10  
 run `setx AWS_PROFILE test5`  
