@@ -5,11 +5,11 @@ AWS IoT Policies
 AWS IoT Thing  
 AWS Cognito User   
 AWS Cognito Identity Pool  
-AWS IAM User  
 AWS IAM Role   
+AWS IAM User  
 
 ## Setup Nodejs  
-`git clone https://github.com/ollolollollooloo/aws-iot-nodejs`  
+`git clone https://github.com/ollolollollooloo/aws-iot-nodejs-tester.git`  
 `cd aws-iot-nodejs`  
 `npm install`  
 Replace certs folder  
@@ -17,9 +17,11 @@ Replace path.resolve according to your certs folder and name
 
 ## To check current active profile in your computer windows 10  
 run `aws configure list`  
+<img src="visuals/list.jpg" width="10%">  
 
 ## To check all profile in your computer windows 10  
 run `vim ~/.aws/credentials`  
+<img src="visuals/all.jpg" width="10%">  
 
 ## To set specific profile in your computer windows 10  
 run `setx AWS_PROFILE test5`  
@@ -35,5 +37,3 @@ If both end are communicating, that means AWS IoT has been successfully configur
 ## Youtube Tutorial
 By Following this Tutorial  
 [Youtube Tutorial Soon]  
-
-This is still in development....  
