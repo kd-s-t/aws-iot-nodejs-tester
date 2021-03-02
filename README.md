@@ -15,6 +15,16 @@ AWS IAM Role
 Replace certs folder  
 Replace path.resolve according to your certs folder and name  
 
+## To check current active profile in your computer windows 10  
+run `aws configure list`  
+
+## To check all profile in your computer windows 10  
+run `vim ~/.aws/credentials`  
+
+## To set specific profile in your computer windows 10  
+run `setx AWS_PROFILE test5`  
+check again the current active profile `aws configure list`  
+
 ## Usage  
 run `node subscribe.js`  
 run `node publish.js`  
