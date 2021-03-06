@@ -7,6 +7,7 @@ AWS Cognito User
 AWS Cognito Identity Pool  
 AWS IAM Role   
 AWS IAM User  
+Add this role in your IAM User: AmazonCognitoDeveloperAuthenticatedIdentities  
 
 ## Setup Nodejs  
 `git clone https://github.com/ollolollollooloo/aws-iot-nodejs-tester.git`  
