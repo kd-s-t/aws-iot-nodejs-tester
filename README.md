@@ -64,4 +64,5 @@ If both end are communicating, that means AWS IoT has been successfully configur
 
 ## Youtube Tutorial
 By Following this Tutorial  
-[Youtube Tutorial Soon]  
+https://youtu.be/p8Vb9l2dW6Q
+  
