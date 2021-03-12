@@ -1,17 +1,44 @@
 # Nodejs and AWS IoT Tester  
 
 ## Setup AWS  
-AWS IoT Policies   
-AWS IoT Thing  
-AWS Cognito User   
-AWS Cognito Identity Pool  
-AWS IAM Role   
-AWS IAM User  
-Add this role in your IAM User: AmazonCognitoDeveloperAuthenticatedIdentities  
+- AWS IoT Policies   
+- AWS IoT Thing  
+- AWS Cognito User   
+- AWS Cognito Identity Pool  
+- AWS IAM Role   
+```javascript  
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "mobileanalytics:PutEvents",
+                "cognito-sync:*",
+                "cognito-identity:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iot:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+```  
+- AWS IAM User  
+Add this role in your `IAM User: AmazonCognitoDeveloperAuthenticatedIdentities`  
 
 ## Setup Nodejs  
 `git clone https://github.com/ollolollollooloo/aws-iot-nodejs-tester.git`  
-`cd aws-iot-nodejs`  
+`cd aws-iot-nodejs-tester`  
 `npm install`  
 Replace certs folder  
 Replace path.resolve according to your certs folder and name  
