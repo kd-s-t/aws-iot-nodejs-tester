@@ -55,6 +55,9 @@ run `vim ~/.aws/credentials`
 run `setx AWS_PROFILE test5`  
 check again the current active profile `aws configure list`  
 
+## Unable to find .aws directory  
+You have to run `aws configure` to have it create the `~/.aws` directory  
+
 ## Usage  
 run `node subscribe.js`  
 run `node publish.js`  
